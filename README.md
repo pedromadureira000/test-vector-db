@@ -15,4 +15,6 @@ create database test_vector_db;
 \c test_vector_db
 CREATE EXTENSION IF NOT EXISTS vector;
 exit;
+
+python runpoc.py
 ```

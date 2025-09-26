@@ -1,0 +1,2 @@
+DATABASE_URL="postgresql://admin_user:asdf@localhost:5432/test_vector_db"
+OPENAI_API_KEY=""

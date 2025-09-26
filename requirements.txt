@@ -1,0 +1,5 @@
+sqlalchemy
+python-decouple
+psycopg2
+pgvector
+openai

@@ -1,0 +1,16 @@
+services:
+  database:
+    container_name: postgres_container_test_vector_db
+    image: pgvector/pgvector:pg16
+    restart: always
+    volumes:
+      - ./.pgdata:/var/lib/postgresql/data
+    environment:
+      - LC_ALL=C.UTF-8
+      - POSTGRES_PASSWORD=asdf
+      - POSTGRES_USER=admin_user
+    ports:
+      - 5432:5432
+
+volumes:
+  pgdata:
